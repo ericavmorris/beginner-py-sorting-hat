@@ -29,7 +29,7 @@ slytherin = 0
   
 
 <h4>2. strings and things</h4>
-A string in Python is a sequence of characters and a mutuable data type. What does that mean? This basically means that once defined, they cannot be changed. Many Python methods, such as replace(), join(), or split() modify strings. However, they do not modify the original string. They create a copy of a string which they then modify and return to the caller. Input() allows users to enter a value. In this case our input will contain a question that will allow our users to provide an answer.
+A string in Python is a sequence of characters and a mutable data type. What does that mean? This basically means that once defined, they cannot be changed. Many Python methods, such as replace(), join(), or split() modify strings. However, they do not modify the original string. They create a copy of a string which they then modify and return to the caller. Input() allows users to enter a value. In this case our input will contain a question that will allow our users to provide an answer.
 
 use "q1_answer" to create a variable to store the 1st answer.
 ```
@@ -77,7 +77,7 @@ else:
 
 
 <h4>4. specialis-revelio-sort (this was a try, i know)</h4>
-Now that we have our program adding up the inputs for house in which we belong, we want to add a sorting method so the program knows when to rank one house over the other.
+Now that we have our program adding up the inputs for the house in which we belong, we want to add a sorting method so the program knows when to rank one house over the other.
 
 If the user has 3 inputs for Hufflepuff and 1 input for Gryffindor, then we want to return Hufflepuff over Gryffindor.</p>
 
@@ -116,7 +116,7 @@ rav_total = int(ravenclaw / 4 * 100)
 huff_total = int(hufflepuff / 4 * 100)
 sly_total = int(slytherin / 4 * 100)
  ```
- NOTE: Please add this calculation before the previous sorting method.
+ Note: Please add this calculation before the previous sorting method.
  
 <h4>lists</h4>
 
