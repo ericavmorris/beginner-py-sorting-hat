@@ -21,7 +21,8 @@ elif q1_answer == 'd':
     slytherin += 1
 else:
     print("Sorry, I dont understand that answer.") #just in case:)
-
+    
+#question2    
 q2_answer = input("""\nWhat can you be found doing on the weekends?
 a) Going on adventures
 b) Reading a book
@@ -37,7 +38,8 @@ elif q2_answer == 'd':
     slytherin += 1
 else:
     print("Sorry, I dont understand that answer.")
-
+    
+#question3
 q3_answer = input("""\nWhat would do if the Dark Lord were to invade your school?
 a) Fight him
 b) Look up some good defensive curses in a book
@@ -53,7 +55,8 @@ elif q3_answer == 'd':
     slytherin += 1
 else:
     print("Sorry, I dont understand that answer.")
-
+    
+#question4
 q4_answer = input("""\nYou would be most hurt if someone called you...
 a) Weak
 b) Ignorant
