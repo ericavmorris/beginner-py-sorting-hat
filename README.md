@@ -104,7 +104,7 @@ Let's try our hand at a catch all phrase and a score breakdown.
    print("\nYou're so complex! \nThis is how you scored:") 
   ```
 
-<h4> a little math </h4>
+<h4>5. a little math </h4>
 We can add an extra element by showing all users how they scored. This is especially valuable to those unsortable users. 
 This is going to require a bit of math to get the total percentage and we also have to convert our data types.
 
@@ -118,7 +118,7 @@ sly_total = int(slytherin / 4 * 100)
  ```
  Note: Please add this calculation before the previous sorting method.
  
-<h4>lists</h4>
+<h4>6. lists</h4>
 
 Now we have a way to calculate user breakdown, we have to create a put our houses in a list. A list is exactly what it sounds like, a data structure in Python that is a ordered sequence of elements.
   ```
@@ -134,24 +134,24 @@ if sly_total > 0:
 for house in houses:
     print(house) 
   ```
-And now we want to go through the list and return every house that the user could've been sorted into based on their answers. This is called _Iteration._
+Now we want to go through the list and return every house that the user could've been sorted into based on their answers. This is called _Iteration._
 
  ```
 for house in houses:
   print(house)
  ```
  
- and.. that's it! if your friend thinks they're a griffyndor and you think otherwise, now you can put them to your test.
+and.. that's it! if your friend thinks they're a griffyndor and you think otherwise, now you can put them to your test.
 
 
-<h4> 5. challenge your new found wizardry </h4>
+<h4> 7. challenge your new found wizardry </h4>
 <ul>
 <li>Good programmers wrap up reusable parts of their code in "functions." Functions are self contained modules of code that accomplish a specific task. Functions usually take in data, process it, and return a result. Once a function is written, it can be used over and over and over again. Try to implement functions in your program.</li>
 
 <li>Add more questions. More questions can create a more accurate outcome.</li>
 
 <li>Implement a loop. If a user enters a bad character, we gotta do more than just tell them the character is bad. We have to ask the question over again. A loop will help you do just that.</li> 
-
+</ul>
 
 </body>
 </html>
