@@ -141,7 +141,7 @@ for house in houses:
   print(house)
  ```
  
-and.. that's it! if your friend thinks they're a griffyndor and you think otherwise, now you can put them to your test.
+And.. That's it! If your friend thinks they're a griffyndor and you think otherwise, now you can put them to your test.
 
 
 <h4> 7. challenge your new found wizardry </h4>
