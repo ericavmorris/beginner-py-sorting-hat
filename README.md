@@ -120,7 +120,7 @@ sly_total = int(slytherin / 4 * 100)
  
 <h4>6. lists</h4>
 
-Now we have a way to calculate user breakdown, we have to create a put our houses in a list. A list is exactly what it sounds like, a data structure in Python that is a ordered sequence of elements.
+Now we have a way to calculate user breakdown, we have to create a put our houses in a list. A list is exactly what it sounds like, an ordered sequence of elements.
   ```
 houses = []
 if gryf_total > 0:
